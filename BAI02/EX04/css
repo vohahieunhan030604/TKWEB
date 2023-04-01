@@ -1,0 +1,58 @@
+body{
+  font: 15px/1.5 Arial, Helvetica,sans-serif;
+  padding:0;
+  margin:0;
+  background-color:#f4f4f4;
+}
+
+
+/* Header **/
+header{
+  background:#ff0000;
+  color:#faeb16;
+  padding-top:30px;
+  min-height:70px;
+  border-bottom:#24e81d 3px solid;
+
+}
+
+header a{
+  color:rgb(5, 243, 76);
+  text-decoration:rgb(245, 243, 241);
+  text-transform:uppercase;
+  font-size:20px;
+}
+
+header li{
+  float:left ;
+  display:inline-block;
+  padding: 20px;
+
+}
+
+header #branding{
+  float:left
+
+}
+
+header #branding h1{
+  margin: -6px;
+
+}
+
+header nav{
+ float:left ;
+
+}
+
+header .highlight, header .current a{
+  color:blue;
+  font-weight:normal;
+
+}
+
+header a:hover{
+  color:#ffffff;
+  font-weight:bold;
+
+}
